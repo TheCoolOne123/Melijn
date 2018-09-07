@@ -3,5 +3,5 @@ sudo: false
 addons:
   apt:
     packages:
-      - oracle-java8-installer
+      - oracle-java10-installer
 script: gradle build
