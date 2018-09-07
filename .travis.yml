@@ -1,7 +1,4 @@
 language: java
 sudo: false
-addons:
-  apt:
-    packages:
-      - oracle-java10-installer
+
 script: gradle build
